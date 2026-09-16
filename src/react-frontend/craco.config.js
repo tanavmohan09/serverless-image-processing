@@ -4,10 +4,9 @@ module.exports = {
       module: {
         rules: [
           {
-            test: /\.m?js$/,
-            resolve: {
-              fullySpecified: false,
-            },
+            test: /\.mjs$/,
+            include: /node_modules/,
+            type: 'javascript/auto',
           },
         ],
       },
