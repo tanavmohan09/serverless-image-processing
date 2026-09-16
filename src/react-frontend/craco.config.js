@@ -11,6 +11,9 @@ module.exports = {
           },
         ],
       },
+      ignoreWarnings: [
+        /Should not import the named export/,
+      ],
     },
   },
 };
